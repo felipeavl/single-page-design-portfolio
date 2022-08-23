@@ -210,7 +210,7 @@ button:hover {
 
 .tech-graphic-design {
   background-color: var(--galactic-blue);
-  background-image: url("/assets/pattern-graphic-design.svg");
+  background-image: url("assets/pattern-graphic-design.svg");
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -219,7 +219,7 @@ button:hover {
 
 .tech-ui-ux {
     background-color: var(--summer-yellow);
-    background-image: url("/assets/pattern-ui-ux.svg");
+    background-image: url("assets/pattern-ui-ux.svg");
     grid-column-start: 3;
     grid-row-start: 1;
     grid-row-end: 1;
@@ -227,7 +227,7 @@ button:hover {
 
 .tech-apps {
     background-color: var(--pink);
-    background-image: url("/assets/pattern-apps.svg");
+    background-image: url("assets/pattern-apps.svg");
     grid-column-start: 4;
     grid-row-start: 1;
     grid-row-end: 1;    
@@ -235,14 +235,14 @@ button:hover {
 
 .tech-illustrations {
     background-color: var(--light-red);
-    background-image: url("/assets/pattern-illustrations.svg");
+    background-image: url("assets/pattern-illustrations.svg");
     grid-column-start: 3;
     grid-column-end: 5;    
 }
 
 .tech-photography {
     background-color: var(--cyan);
-    background-image: url("/assets/pattern-photography.svg");
+    background-image: url("assets/pattern-photography.svg");
     grid-column-start: 5;    
     grid-column-end: 7;
     grid-row-start: 1;
@@ -251,7 +251,7 @@ button:hover {
 
 .tech-motion-graphics {
     background-color: var(--dark-purple);
-    background-image: url("/assets/pattern-motion-graphics.svg");
+    background-image: url("assets/pattern-motion-graphics.svg");
     grid-column-start: 5;    
     grid-column-end: 7;
     grid-row-start: 2;
