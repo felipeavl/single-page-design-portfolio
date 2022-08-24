@@ -1,7 +1,26 @@
-const next = document.querySelector(".carroussel-nav-button-next");
+const swiper = new Swiper('.swiper', {
+    speed: 400,
+    slidesPerView: 3,
+    spaceBetween: 30,    
+    centeredSlides: true,
+    breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 30
+        },
+        480: {
+          slidesPerView: 2,
+          spaceBetween: 30
+        },
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 30
+        }
+      }    
+  }); 
 
-let index = 0;
-let imageSize = document.querySelector(".carroussel-item").offsetWidth;
+const next = document.querySelector(".carroussel-nav-button-next");
+const previous = document.querySelector(".carroussel-nav-button-previous");
 
 document.addEventListener("keydown", function(event) {
     if (event.key === "ArrowRight") {
@@ -13,26 +32,9 @@ document.addEventListener("keydown", function(event) {
 } );
 
 next.addEventListener("click", function () {
-    if(index == 2) {
-        return;
-    }
-    index++;
-    document.querySelectorAll(".carroussel-item").forEach(function (item) {
-        item.style.transform = `translateX(calc(-${imageSize}px * ${index}))`;        
-    }
-    );
-    
+    swiper.slideNext();
 });
-
-const previous = document.querySelector(".carroussel-nav-button-previous");
 previous.addEventListener("click", function () {
-    if(index == -2) {
-        return;
-    }
-    index--;
-    document.querySelectorAll(".carroussel-item").forEach(function (item) {
-        item.style.transform = `translateX(calc(-${imageSize}px * ${index}))`;        
-    }
-    );
-    
-});
+    swiper.slidePrev();
+} );
+

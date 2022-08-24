@@ -17,6 +17,12 @@
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <title>Frontend Mentor | Single-page design portfolio</title>
   </head>
@@ -78,6 +84,60 @@
 
     <section class="work">
       <h3 class="headingS">My Work</h3>
+
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img
+              src="assets/image-slide-1.jpg"
+              alt="Work 1"
+              class="carrousel-img"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/image-slide-2.jpg"
+              alt="Work 2"
+              class="carrousel-img"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/image-slide-3.jpg"
+              alt="Work 3"
+              class="carrousel-img"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/image-slide-4.jpg"
+              alt="Work 4"
+              class="carrousel-img"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/image-slide-5.jpg"
+              alt="Work 5"
+              class="carrousel-img"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="carroussel-nav-buttons">
+        <button class="carroussel-nav-button carroussel-nav-button-previous">
+          <img src="assets/icon-arrow-left.svg" alt="Previous" />
+        </button>
+        <button class="carroussel-nav-button carroussel-nav-button-next">
+          <img src="assets/icon-arrow-right.svg" alt="Next" />
+        </button>
+      </div>
+
+      <!-- 
+
       <div class="carroussel">
         <div class="carroussel-item">
           <img src="assets/image-slide-1.jpg" alt="Work 1" />
@@ -102,7 +162,7 @@
         <button class="carroussel-nav-button carroussel-nav-button-next">
           <img src="assets/icon-arrow-right.svg" alt="Next" />
         </button>
-      </div>
+      </div> -->
     </section>
 
     <section class="book-box">

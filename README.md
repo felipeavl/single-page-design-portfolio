@@ -4,6 +4,8 @@ This is a solution to the [Single-page design portfolio challenge on Frontend Me
 
 I often update the code to try out stuff I see in Videos, Tutorials, Blog posts, other Projects, etc. I Link this resources below.
 
+- Aug 2022: Added Swiper Slider to replace the manually created slider.
+
 ## Overview
 
 ### The challenge
@@ -31,3 +33,4 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Solution URL: [Swiper JS](https://swiperjs.com/)
