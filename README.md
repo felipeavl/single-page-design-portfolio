@@ -33,4 +33,4 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Solution URL: [Swiper JS](https://swiperjs.com/)
+- [Swiper JS](https://swiperjs.com/)
